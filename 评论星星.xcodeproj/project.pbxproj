@@ -15,6 +15,8 @@
 		B925D4121F68D5D000A3948A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B925D4101F68D5D000A3948A /* LaunchScreen.storyboard */; };
 		B925D41D1F68D5D000A3948A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D41C1F68D5D000A3948A /* ____Tests.m */; };
 		B925D4281F68D5D000A3948A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D4271F68D5D000A3948A /* ____UITests.m */; };
+		B925D4381F68E27F00A3948A /* XHStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D4371F68E27F00A3948A /* XHStarRateView.m */; };
+		B925D43B1F68FFE100A3948A /* WSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D43A1F68FFE100A3948A /* WSStarRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B925D4231F68D5D000A3948A /* 评论星星UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "评论星星UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B925D4271F68D5D000A3948A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		B925D4291F68D5D000A3948A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925D4361F68E27A00A3948A /* XHStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHStarRateView.h; sourceTree = "<group>"; };
+		B925D4371F68E27F00A3948A /* XHStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHStarRateView.m; sourceTree = "<group>"; };
+		B925D4391F68FFDD00A3948A /* WSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSStarRatingView.h; sourceTree = "<group>"; };
+		B925D43A1F68FFE100A3948A /* WSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSStarRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		B925D4011F68D5D000A3948A /* 评论星星 */ = {
 			isa = PBXGroup;
 			children = (
+				B925D4351F68E26700A3948A /* Cartory */,
 				B925D4051F68D5D000A3948A /* AppDelegate.h */,
 				B925D4061F68D5D000A3948A /* AppDelegate.m */,
 				B925D4081F68D5D000A3948A /* ViewController.h */,
@@ -138,6 +145,17 @@
 				B925D4291F68D5D000A3948A /* Info.plist */,
 			);
 			path = "评论星星UITests";
+			sourceTree = "<group>";
+		};
+		B925D4351F68E26700A3948A /* Cartory */ = {
+			isa = PBXGroup;
+			children = (
+				B925D4361F68E27A00A3948A /* XHStarRateView.h */,
+				B925D4371F68E27F00A3948A /* XHStarRateView.m */,
+				B925D4391F68FFDD00A3948A /* WSStarRatingView.h */,
+				B925D43A1F68FFE100A3948A /* WSStarRatingView.m */,
+			);
+			name = Cartory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B925D43B1F68FFE100A3948A /* WSStarRatingView.m in Sources */,
+				B925D4381F68E27F00A3948A /* XHStarRateView.m in Sources */,
 				B925D40A1F68D5D000A3948A /* ViewController.m in Sources */,
 				B925D4071F68D5D000A3948A /* AppDelegate.m in Sources */,
 				B925D4041F68D5D000A3948A /* main.m in Sources */,
